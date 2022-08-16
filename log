@@ -1,0 +1,206 @@
+Script started on Tue 16 Aug 2022 06:03:03 AM UTC
+]0;root@localhost:/[?1034h[root@localhost /]# ls
+[0m[38;5;51mbin[0m   [38;5;27mdev[0m  [38;5;27mhome[0m  [38;5;51mlib64[0m  [38;5;27mmnt[0m  [38;5;27mproc[0m  [38;5;27mrun[0m   [38;5;27msrv[0m  [48;5;10;38;5;16mtmp[0m         [38;5;27musr[0m
+[38;5;27mboot[0m  [38;5;27metc[0m  [38;5;51mlib[0m   [38;5;27mmedia[0m  [38;5;27mopt[0m  [38;5;27mroot[0m  [38;5;51msbin[0m  [38;5;27msys[0m  typescript  [38;5;27mvar[0m
+]0;root@localhost:/[root@localhost /]# lsblk
+NAME                    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                       8:0    0   40G  0 disk 
+├─sda1                    8:1    0    1M  0 part 
+├─sda2                    8:2    0    1G  0 part /boot
+└─sda3                    8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00 253:0    0 37.5G  0 lvm  /
+  └─VolGroup00-LogVol01 253:1    0  1.5G  0 lvm  [SWAP]
+sdb                       8:16   0   10G  0 disk 
+sdc                       8:32   0    2G  0 disk 
+sdd                       8:48   0    1G  0 disk 
+sde                       8:64   0    1G  0 disk 
+]0;root@localhost:/[root@localhost /]# exit
+exit
+
+Script done on Tue 16 Aug 2022 06:03:12 AM UTC
+Script started on Tue 16 Aug 2022 06:04:28 AM UTC
+]0;root@localhost:/[?1034h[root@localhost /]# pvcreate /dev/sdb
+  Physical volume "/dev/sdb" successfully created.
+]0;root@localhost:/[root@localhost /]# vi typescript 
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"typescript" 20L, 1259C[1;1HScript started on Tue 16 Aug 2022 06:03:03 AM UTC
+[34m^[[m]0;root@localhost:/[34m^G^[[m[?1034h[root@localhost /]# ls[34m^M
+^[[m[0m[34m^[[m[38;5;51mbin[34m^[[m[0m   [34m^[[m[38;5;27mdev[34m^[[m[0m  [34m^[[m[38;5;27mhome[34m^[[m[0m  [34m^[[m[38;5;511[4;1Hmlib64[34m^[[m[0m  [34m^[[m[38;5;27mmnt[34m^[[m[0m  [34m^[[m[38;5;27mproc[34m^[[m[0m  [34m^[[m[38;5;27mrun[34m^[[m[0m   [34m^[[[m[5;1H[38;5;27msrv[34m^[[m[0m  [34m^[[m[48;5;10;38;5;16mtmp[34m^[[m[0m[9C[34m^[[m[38;5;27musr[34m^[[m[0m[34m^M
+^[[m[38;5;27mboot[34m^[[m[0m  [34m^[[m[38;5;27metc[34m^[[m[0m  [34m^[[m[38;5;51mlib[34m^[[m[0m   [34m^[[m[38;5;27mmedii[7;1Ha[34m^[[m[0m  [34m^[[m[38;5;27mopt[34m^[[m[0m  [34m^[[m[38;5;27mroot[34m^[[m[0m  [34m^[[m[38;5;51msbin[34m^[[m[0m  [34m^[[m[38;55[8;1H;27msys[34m^[[m[0m  typescript  [34m^[[m[38;5;27mvar[34m^[[m[0m[34m^M
+^[[m]0;root@localhost:/[34m^G[m[root@localhost /]# lsblk[34m^M[m
+NAME[20CMAJ:MIN RM  SIZE RO TYPE MOUNTPOINT[34m^M[m
+sda[23C8:0    0   40G  0 disk [34m^M[m
+├─sda1[20C8:1    0    1M  0 part [34m^M[m
+├─sda2[20C8:2    0    1G  0 part /boot[34m^M[m
+└─sda3[20C8:3    0   39G  0 part [34m^M[m
+  ├─VolGroup00-LogVol00 253:0    0 37.5G  0 lvm  /[34m^M[m
+  └─VolGroup00-LogVol01 253:1    0  1.5G  0 lvm  [SWAP][34m^M[m
+sdb[23C8:16   0   10G  0 disk [34m^M[m
+sdc[23C8:32   0    2G  0 disk [34m^M[m
+sdd[23C8:48   0    1G  0 disk [34m^M[m
+sde[23C8:64   0    1G  0 disk [34m^M
+^[[m]0;root@localhost:/[34m^G[m[root@localhost /]# exit[34m^M[m
+exit[34m^M[1;1H[?12l[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;23r[m[23;1H
+[1;24r[23;1HScript done on Tue 16 Aug 2022 06:03:12 AM UTC[24;1H[K[23;1H[?12l[?25h[?25l
+:[?12l[?25hq[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l]0;root@localhost:/[root@localhost /]# vi typescript pvcreate /dev/sdbexit[Klsblk[Kblk[1Pexitpvcreate /dev/sdb[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript [K[K[K[K[K[K[Kexit
+exit
+
+Script done on Tue 16 Aug 2022 06:04:56 AM UTC
+Script started on Tue 16 Aug 2022 06:05:16 AM UTC
+]0;root@localhost:/[?1034h[root@localhost /]# vgcreate vg_root /dev/sdb
+  Volume group "vg_root" successfully created
+]0;root@localhost:/[root@localhost /]# lvcreate -n lv_root -l +100%FREE /dev/vg_root
+  Logical volume "lv_root" created.
+]0;root@localhost:/[root@localhost /]# mkfs.xfs /dev/vg_root/lv_root
+meta-data=/dev/vg_root/lv_root   isize=512    agcount=4, agsize=655104 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=2620416, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=2560, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+]0;root@localhost:/[root@localhost /]# mount /dev/vg_root/lv_root /mnt
+]0;root@localhost:/[root@localhost /]# sudo yu [Km inst[K[K[K[K[K[K[K[K[K[K[K[K[Kyum install xfsdump -y
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: ftp.nara.wide.ad.jp
+ * extras: ftp.nara.wide.ad.jp
+ * updates: ftp.nara.wide.ad.jp
+Resolving Dependencies
+--> Running transaction check
+---> Package xfsdump.x86_64 0:3.1.7-1.el7 will be installed
+--> Processing Dependency: attr >= 2.0.0 for package: xfsdump-3.1.7-1.el7.x86_64
+--> Running transaction check
+---> Package attr.x86_64 0:2.4.46-13.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package          Arch            Version                   Repository     Size
+================================================================================
+Installing:
+ xfsdump          x86_64          3.1.7-1.el7               base          308 k
+Installing for dependencies:
+ attr             x86_64          2.4.46-13.el7             base           66 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 374 k
+Installed size: 1.1 M
+Downloading packages:
+(2/2): xfsdump-3.1.7-1.el7 0% [                 ]  0.0 B/s |    0 B   --:-- ETA (2/2): xfsdump-3.1.7-1.el7 10% [=-              ]  0.0 B/s |  38 kB   --:-- ETA (2/2): xfsdump-3.1.7-1.el7 31% [=====           ] 126 kB/s | 119 kB   00:02 ETA (2/2): xfsdump-3.1.7-1.el7 78% [============-   ] 153 kB/s | 295 kB   00:00 ETA (1/2): xfsdump-3.1.7-1.el7.x86_64.rpm                      | 308 kB   00:03     
+(2/2): attr-2.4.46-13.el7. 82% [=============   ]  69 kB/s | 308 kB   00:00 ETA (2/2): attr-2.4.46-13.el7. 86% [=============-  ]  62 kB/s | 323 kB   00:00 ETA (2/2): attr-2.4.46-13.el7. 88% [==============  ]  54 kB/s | 329 kB   00:00 ETA (2/2): attr-2.4.46-13.el7. 97% [===============-]  57 kB/s | 364 kB   00:00 ETA (2/2): attr-2.4.46-13.el7.x86_64.rpm                       |  66 kB   00:07     
+--------------------------------------------------------------------------------
+Total                                               46 kB/s | 374 kB  00:08     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : attr-2.4.46-13.el7.x86_64 [                                ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#                               ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#####                           ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [########                        ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#########                       ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [############                    ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#############                   ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##Script started on Tue 16 Aug 2022 06:18:39 AM UTC
+]0;root@localhost:/[?1034h[root@localhost /]# lsblk
+NAME                     MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                        8:0    0   40G  0 disk 
+├─sda1                     8:1    0    1M  0 part 
+├─sda2                     8:2    0    1G  0 part /boot
+└─sda3                     8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00  253:0    0    8G  0 lvm  /
+  └─VolGroup00-LogVol01  253:1    0  1.5G  0 lvm  [SWAP]
+sdb                        8:16   0   10G  0 disk 
+└─vg_root-lv_root        253:2    0   10G  0 lvm  
+sdc                        8:32   0    2G  0 disk 
+├─vg_var-lv_var_rmeta_0  253:3    0    4M  0 lvm  
+│ └─vg_var-lv_var        253:7    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_0 253:4    0  952M  0 lvm  
+  └─vg_var-lv_var        253:7    0  952M  0 lvm  /var
+sdd                        8:48   0    1G  0 disk 
+├─vg_var-lv_var_rmeta_1  253:5    0    4M  0 lvm  
+│ └─vg_var-lv_var        253:7    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_1 253:6    0  952M  0 lvm  
+  └─vg_var-lv_var        253:7    0  952M  0 lvm  /var
+sde                        8:64   0    1G  0 disk 
+]0;root@localhost:/[root@localhost /]# lvremove /dev/vg_root/lv_root
+Do you really want to remove active logical volume vg_root/lv_root? [y/n]: y
+  Logical volume "lv_root" successfully removed
+]0;root@localhost:/[root@localhost /]#  vgremove /dev/vg_root
+  Volume group "vg_root" successfully removed
+]0;root@localhost:/[root@localhost /]# pvremove /dev/sdb
+  Labels on physical volume "/dev/sdb" successfully wiped.
+]0;root@localhost:/[root@localhost /]#  lvcreate -n LogVol_Home -L 2G /dev/VolGroup00
+  Logical volume "LogVol_Home" created.
+]0;root@localhost:/[root@localhost /]# mkfs.xfs /dev/VolGroup00/LogVol_Home
+meta-data=/dev/VolGroup00/LogVol_Home isize=512    agcount=4, agsize=131072 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=524288, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=2560, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+]0;root@localhost:/[root@localhost /]# mount /dev/VolGroup00/LogVol_Home /mnt/
+]0;root@localhost:/[root@localhost /]# cp -aR /home/* /mnt/ 
+]0;root@localhost:/[root@localhost /]# rm -rf /home/*
+]0;root@localhost:/[root@localhost /]# umount /mnt
+]0;root@localhost:/[root@localhost /]# mount /dev/VolGroup00/LogVol_Home /home/
+]0;root@localhost:/[root@localhost /]# echo "`blkid | grep Home | awk '{print $2}'` /home xfs defau lts 0 0" >> /etc/fstab
+]0;root@localhost:/[root@localhost /]# touch /home/file{1..20}
+]0;root@localhost:/[root@localhost /]# lvcreate -L 100MB -s -n home_snap /dev/VolGroup00/LogVol_Hom e
+  Rounding up size to full physical extent 128.00 MiB
+  Logical volume "home_snap" created.
+]0;root@localhost:/[root@localhost /]# rm -f /home/file{11..20}
+]0;root@localhost:/[root@localhost /]#  umount /home
+]0;root@localhost:/[root@localhost /]#  lvconvert --merge /dev/VolGroup00/home_snap
+  Merging of volume VolGroup00/home_snap started.
+  VolGroup00/LogVol_Home: Merged: 100.00%
+]0;root@localhost:/[root@localhost /]# mount /home
+]0;root@localhost:/[root@localhost /]# lsblk
+NAME                       MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                          8:0    0   40G  0 disk 
+├─sda1                       8:1    0    1M  0 part 
+├─sda2                       8:2    0    1G  0 part /boot
+└─sda3                       8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00    253:0    0    8G  0 lvm  /
+  ├─VolGroup00-LogVol01    253:1    0  1.5G  0 lvm  [SWAP]
+  └─VolGroup00-LogVol_Home 253:2    0    2G  0 lvm  /home
+sdb                          8:16   0   10G  0 disk 
+sdc                          8:32   0    2G  0 disk 
+├─vg_var-lv_var_rmeta_0    253:3    0    4M  0 lvm  
+│ └─vg_var-lv_var          253:7    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_0   253:4    0  952M  0 lvm  
+  └─vg_var-lv_var          253:7    0  952M  0 lvm  /var
+sdd                          8:48   0    1G  0 disk 
+├─vg_var-lv_var_rmeta_1    253:5    0    4M  0 lvm  
+│ └─vg_var-lv_var          253:7    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_1   253:6    0  952M  0 lvm  
+  └─vg_var-lv_var          253:7    0  952M  0 lvm  /var
+sde                          8:64   0    1G  0 disk 
+]0;root@localhost:/[root@localhost /]# exit
+exit
+
+Script done on Tue 16 Aug 2022 06:22:18 AM UTC
